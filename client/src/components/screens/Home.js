@@ -105,9 +105,7 @@ const Home  = ()=>{
                        <h6><b style={{}}>{index + 1}</b></h6>
                        <h6><b style={{}}>{item.title.split(" ")[0]}</b></h6>
                        
-                                <img src={item.photo} style={{height:"200px",width:"200px"}} 
-                                style={{width:"60px",height:"60px"}}
-                                />
+                                <img src={item.photo} style={{height:"200px",width:"200px"}} />
                        
                             <div className="card-content">
                           
